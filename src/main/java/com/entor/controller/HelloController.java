@@ -23,4 +23,9 @@ public class HelloController {
     public String getPort(){
         return "服务器端口："+port;
     }
+
+    @GetMapping("/index")
+    public String index(){
+        return "index";
+    }
 }
